@@ -16,6 +16,7 @@ main{
 }
 
 aside{
+    background-color: grey;
     display: flex;
     flex-direction: column;
     flex:1;
@@ -34,7 +35,6 @@ section{
 .box{
     width: 150px;
     height: 150px;
-    background-color: lightslategrey;
     color:white;
     text-align: Center;
     border-radius: 5px;
