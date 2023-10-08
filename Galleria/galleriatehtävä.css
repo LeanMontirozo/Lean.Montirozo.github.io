@@ -16,7 +16,7 @@ main{
 aside{
     display: flex;
     flex-direction: column;
-    flex:50;
+    flex:1;
 }
 
 section{
