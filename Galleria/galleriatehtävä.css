@@ -1,0 +1,87 @@
+h1{
+    color:blueviolet;
+    text-align: center;
+}
+
+body{
+    background-color: beige;
+    text-align: center;
+}
+
+main{
+    display:flex;
+    height: 100vh;
+}
+
+aside{
+    background: lightblue;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    height: 100vh;
+    background: url(https://i0.wp.com/handluggageonly.co.uk/wp-content/uploads/2018/07/Pink-Beach-Samal-Island.jpg?resize=1000%2C667&ssl=1);
+    align-content: flex-start;
+    flex: 4;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: lightslategrey;
+    color:white;
+    text-align: Center;
+    border-radius: 5px;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: pink;
+}
+
+#boxes{
+    background-color: peachpuff;
+    color: #333;
+    height: 100vh;
+}
+
+
+.box1, .box2, .box3{
+    height: 150px;
+    width: 150px;
+    background: rgb(155, 155, 155);
+    margin-bottom: 10px;
+}
+
+.box1, .box2, .box3{
+    border: 3px dotted wheat;
+    
+}
+.box4, .box5, .box6{
+    border-style: solid;
+    border-width: 10px;
+    border-color: green yellow blue red;
+    background: mediumturquoise;
+}
+.box7, .box8{
+    border: 5px inset white;
+    background: plum;
+}
+.box9{
+    border: 5px dashed white;
+    background: rosybrown;
+}
+
+@media (max-width: 768){
+    .box{
+        background-color:green;
+    }
+}
