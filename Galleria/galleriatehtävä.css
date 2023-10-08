@@ -44,12 +44,8 @@ section{
     align-items: center;
 }
 
-body{
-    background-color: pink;
-}
 
 #boxes{
-    background-color: peachpuff;
     color: #333;
     height: 100vh;
 }
@@ -66,10 +62,7 @@ body{
     border-style: solid;
     border-width: 10px;
 }
-.box7, .box8{
-    border: 5px inset white;
-    background: plum;
-}
+
 
 @media (max-width: 768){
     .box{
