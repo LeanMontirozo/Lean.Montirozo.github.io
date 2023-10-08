@@ -23,7 +23,7 @@ aside{
 section{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row-reverse;
+    flex-direction:inherit;
     height: 100vh;
     align-content: flex-start;
     flex: 4;
