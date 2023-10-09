@@ -7,26 +7,25 @@ body{
     background-color: beige;
     text-align: center;
     margin:auto;
-    max-width: 800px;
+    max-width: 600px;
 }
 
 main{
     display:flex;
-    height: 100vh;
+    height: 1000vh;
 }
 
 aside{
     background-color: grey;
     display: flex;
     flex-direction: column;
-    flex:100;
+    flex:1;
 }
 
 aside2{
     width: 100px;
     padding-left: 50px;
     margin-left: 50px;
-
     background-color: grey;
     display: flex;
     flex-direction: column;
@@ -75,8 +74,6 @@ section{
     width: 150px;
     margin-bottom: 10px;
 }
-
-
 
 
 @media (max-width: 768){
