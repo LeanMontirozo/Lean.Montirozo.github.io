@@ -49,8 +49,13 @@ figcaption{
     text-shadow: none;
     overflow-y: visible;
     height: 40px;
-    width: 200px;  
-    text-overflow: ellipsis;
+    width: 200px;
+    text-align: left;
+}
+
+h3{
+    text-align:justify;
+
 }
 
 section{
