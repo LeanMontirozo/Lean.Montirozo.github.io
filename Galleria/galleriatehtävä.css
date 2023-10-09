@@ -64,12 +64,11 @@ h3{
     padding-left: 5px;
 }
 
-.text-block{
+.content{
     position:sticky;
     bottom: 170px;
     left:20px;
-    background-color: rgb(0, 0, 0); /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    background-color: yellow;
     color: #f1f1f1;
     width: 50%;
     padding-left: 5px;
