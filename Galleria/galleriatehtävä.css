@@ -19,6 +19,17 @@ aside{
     background-color: grey;
     display: flex;
     flex-direction: column;
+    flex:100;
+}
+
+aside2{
+    width: 100px;
+    padding-left: 50px;
+    margin-left: 50px;
+
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
     flex:1;
     float: right;
 }
