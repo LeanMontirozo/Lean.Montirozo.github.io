@@ -5,14 +5,19 @@ h1{
 
 body{
     background-color: beige;
-    text-align: center;
+    text-align: left;
     margin:auto;
-    max-width: 600px;
+    max-width: 1000px;
 }
 
 main{
     display:flex;
     height: 1000vh;
+}
+
+img{
+    display: block;
+    align-items: end;
 }
 
 aside{
@@ -23,14 +28,14 @@ aside{
 }
 
 aside2{
-    width: 100px;
-    padding-left: 50px;
-    margin-left: 50px;
+    width: 800px;
+    padding-left: 100px;
+    margin-left: 100px;
     background-color: grey;
-    display: flex;
+    display:flex;
     flex-direction: column;
     flex:1;
-    float: right;
+    float:initial;
 }
 
 footer{
