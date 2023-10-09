@@ -22,6 +22,16 @@ aside{
     flex:1;
 }
 
+footer{
+    text-align:left;
+    color: white;
+    background: darkblue;
+    padding: 10px;
+}
+
+figcaption{
+    text-shadow: none;
+}
 
 section{
     background-color: grey;
