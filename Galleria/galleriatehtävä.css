@@ -12,21 +12,15 @@ body{
 
 main{
     display:flex;
-    height: 305vh;
+    height: 180vh;
 }
 
 img{
     display: block;
 }
 
-aside{
-    background-color: grey;
-    display: flex;
-    flex-direction: column;
-    flex:1;
-}
 
-aside2{
+aside{
     width: 800px;
     padding-left: 100px;
     margin-left: 100px;
@@ -36,17 +30,27 @@ aside2{
     flex:1;
     float:right;
     top:100px;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
+
 
 footer{
     text-align:left;
     color: white;
     background: darkblue;
-    padding: 1px;
+    width: 800px;
+    padding-left: 100px;
+    margin-left: 140px;
+
 }
 
 figcaption{
     text-shadow: none;
+    overflow-y: visible;
+    height: 40px;
+    width: 200px;  
+    text-overflow: ellipsis;
 }
 
 section{
