@@ -83,8 +83,8 @@ div.absolute {
 
 div.absolute1 {
     position: absolute;
-    top: 0px;
-    right: 100px;
+    top: 1px;
+    right: 0;
     left:0px;
     width: 150px;
     height: 10px;
