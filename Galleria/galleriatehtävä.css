@@ -64,6 +64,12 @@ h3{
     padding-left: 5px;
 }
 
+div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+  }
+
 div.absolute {
 	position: absolute;
 	top: 5px;
@@ -75,7 +81,7 @@ div.absolute {
     background-color: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
 }
 
-.relative {
+.container {
     position: relative;
     max-width: 800px; /* Maximum width */
     margin: 0 auto; /* Center it */
