@@ -64,7 +64,7 @@ h3{
     padding-left: 5px;
 }
 
-div.absolute {
+div {
 	position: absolute;
 	top: 80px;
 	right: 0;
