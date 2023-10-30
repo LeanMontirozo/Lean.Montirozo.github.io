@@ -103,6 +103,7 @@ section{
     flex-wrap: wrap;
     flex-direction:column;
     height: 10vh;
+    align-content: flex-start;
     flex: 1;
 }
 
@@ -110,9 +111,7 @@ section{
     width: 150px;
     height: 150px;
     margin: 1rem;
-    display:inline-flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 
