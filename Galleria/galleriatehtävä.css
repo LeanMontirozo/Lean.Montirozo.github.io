@@ -107,14 +107,7 @@ section{
     flex: 1;
 }
 
-.box{
-    width: 150px;
-    height: 150px;
-    margin: 1rem;
-    
-    justify-content: center;
-    align-items: center;
-}
+
 
 
 #boxes{
