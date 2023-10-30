@@ -71,6 +71,7 @@ h3{
 	left:100px;
 	width: 200px;
 	height: 100px;
+	border: 3px solid black;
 }
 
 .container {
@@ -123,6 +124,6 @@ section{
 
 @media (max-width: 768){
     .box{
-        background-color:black;
+        background-color:green;
     }
 }
