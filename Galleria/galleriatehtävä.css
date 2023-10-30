@@ -20,19 +20,7 @@ img{
 }
 
 
-aside{
-    width: 800px;
-    padding-left: 100px;
-    margin-left: 100px;
-    background-color: grey;
-    display:flex;
-    flex-direction: column;
-    flex:1;
-    float:right;
-    top:100px;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
+
 
 
 footer{
