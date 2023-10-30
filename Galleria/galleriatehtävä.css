@@ -76,7 +76,7 @@ div.absolute {
     right: 0;
     left:0;
     width: 150px;
-    height: 30px;
+    height: 10px;
     background-color: rgb(0, 0, 0); /* Fallback color */
     background-color: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   }
