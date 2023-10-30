@@ -81,7 +81,7 @@ div.absolute {
     background-color: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
 }
 
-div.relative {
+div.relative1 {
     position: relative;
     width: 400px;
     height: 200px;
