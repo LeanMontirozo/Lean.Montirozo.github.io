@@ -83,9 +83,9 @@ div.absolute {
 
 div.absolute1 {
     position: absolute;
-    top: 1px;
+    top: 10px;
     right: 0;
-    left:0px;
+    left: 0;
     width: 150px;
     height: 10px;
     background-color: rgb(0, 0, 0); /* Fallback color */
