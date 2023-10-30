@@ -101,31 +101,9 @@ section{
     background-color: grey;
     display: flex;
     flex-wrap: wrap;
-    
+    flex-direction:column;
+    height: 10vh;
+    align-content: flex-start;
+    flex: 1;
 }
 
-.box{
-    width: 150px;
-    height: 150px;
-    margin: 1rem;
-    
-}
-
-
-#boxes{
-    height: 100vh;
-}
-
-
-.box1, .box2, .box3{
-    height: 150px;
-    width: 150px;
-    margin-bottom: 10px;
-}
-
-
-@media (max-width: 768){
-    .box{
-        background-color:green;
-    }
-}
