@@ -64,6 +64,16 @@ h3{
     padding-left: 5px;
 }
 
+div.absolute {
+	position: absolute;
+	top: 80px;
+	right: 0;
+	left:100px;
+	width: 200px;
+	height: 100px;
+	border: 3px solid #73AD21;
+}
+
 .container {
     position: relative;
     max-width: 800px; /* Maximum width */
