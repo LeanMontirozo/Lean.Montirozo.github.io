@@ -101,8 +101,8 @@ section{
     background-color: grey;
     display: flex;
     flex-wrap: wrap;
+    flex-direction:column;
     height: 10vh;
-    align-content: flex-start;
     flex: 1;
 }
 
