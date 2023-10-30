@@ -75,7 +75,7 @@ div.absolute {
     background-color: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
 }
 
-.container {
+.relative {
     position: relative;
     max-width: 800px; /* Maximum width */
     margin: 0 auto; /* Center it */
