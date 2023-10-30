@@ -81,29 +81,5 @@ div.absolute {
     background-color: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
 }
 
-.container {
-    position: relative;
-    max-width: 800px; /* Maximum width */
-    margin: 0 auto; /* Center it */
-  }
 
-.content{
-    position:absolute;
-    bottom: 170px;
-    left:20px;
-    background-color: yellow;
-    color: #f1f1f1;
-    width: 50%;
-    padding-left: 5px;
-}
-
-section{
-    background-color: grey;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction:column;
-    height: 10vh;
-    align-content: flex-start;
-    flex: 1;
-}
 
