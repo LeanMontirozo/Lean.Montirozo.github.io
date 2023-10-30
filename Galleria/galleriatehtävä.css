@@ -45,6 +45,13 @@ footer{
 
 }
 
+figcaption{
+    text-shadow: none;
+    overflow-y: visible;
+    height: 40px;
+    width: 200px;
+    text-align: left;
+}
 
 h3{
     position:absolute;
@@ -115,11 +122,7 @@ section{
 }
 
 
-.box1, .box2, .box3{
-    height: 150px;
-    width: 150px;
-    margin-bottom: 10px;
-}
+
 
 
 @media (max-width: 768){
