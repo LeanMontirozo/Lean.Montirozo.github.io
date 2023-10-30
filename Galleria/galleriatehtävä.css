@@ -11,7 +11,7 @@ body{
 }
 
 main{
-    display:contents;
+    display:flex;
     height: 180vh;
 }
 
