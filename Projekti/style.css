@@ -1,0 +1,182 @@
+body{
+    background-color: rgb(157, 200, 209);
+}
+h1{
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    width: 98%;
+    padding: 0px;
+}
+
+img{
+  float: left;
+}
+
+p{
+  font-size: 18px;
+  color: whitesmoke;
+}
+
+.divider {
+  font-size: 30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.divider::before, .divider::after {
+  flex: 1;
+  content: '';
+  padding: 3px;
+  background-color: silver;
+  margin: 5px;
+}
+
+div.events{
+  text-align: center;
+  font-size: 25px;
+}
+
+
+
+a:hover {
+  background-color: silver;
+}
+
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin:0px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #2d5769;
+
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  
+
+div.gallery {
+  margin: 30px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  /* Float four columns side by side */
+  .column {
+    float: right;
+    width: 25%;
+    padding: 25px;
+  }
+  
+  .row {margin: 5 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 90%;
+      display:block;
+      margin-bottom: 100px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    text-align: center;
+    background-color: #444;
+    color: white;
+    box-shadow: 10px 10px 5px 12px rgb(175, 64, 249);
+
+  }
+
+  .fa {font-size:50px;}
+
+  
+footer{
+  text-align: center;
+  background-color: #2d5769;
+  font-size: 20px;
+}
+
+h5{
+  font-size: 25px;
+}
+
+div.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: 10;
+}
+
+@keyframes example {
+  0%   {background-color:rgb(234, 0, 255); left:0px; top:0px;}
+  25%  {background-color:rgb(162, 0, 255); left:1400px; top:0px;}
+  50%  {background-color:rgb(0, 170, 255); right:1400px; top:0px;}
+  75%  {background-color:rgb(9, 75, 104); right:0px; top:0px;}
+  100% {background-color:rgb(114, 33, 78); left:0px; top:0px;}
+}
